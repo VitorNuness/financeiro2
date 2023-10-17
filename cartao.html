@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+      rel="stylesheet">
+    <title>Finanças</title>
+</head>
+<body>
+    <nav class="main-nav">
+        <span class="logo">
+            <span class="material-icons-round">
+                attach_money
+            </span>
+            Finanças
+        </span>
+        <div class="menus">
+            <ul class="menu">
+                <li class="menu-item hover">
+                    <a href="main.html">
+                        <span class="material-icons-round">
+                            home
+                        </span>
+                        Principal
+                    </a>
+                </li>
+                <li class="menu-item hover active">
+                    <a href="cartao.html">
+                        <span class="material-icons-round">
+                            payment
+                        </span>
+                        Cartões e contas
+                    </a>
+                </li>
+                <li class="menu-item hover">
+                    <a href="dividas.html">
+                        <span class="material-icons-round">
+                            request_quote
+                        </span>
+                        Dívidas
+                    </a>
+                </li>
+                <li class="menu-item hover">
+                    <a href="historico.html">
+                        <span class="material-icons-round">
+                            description
+                        </span>
+                        Histórico
+                    </a>
+                </li>
+                <li class="menu-item hover">
+                    <a href="investimentos.html">
+                        <span class="material-icons-round">
+                            trending_up
+                        </span>
+                        Investimentos
+                    </a>
+                </li>
+                <li class="menu-item hover">
+                    <a href="metas.html">
+                        <span class="material-icons-round">
+                            savings
+                        </span>
+                        Metas e Orçamentos
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <button class="calculadora hover">
+                        <span class="material-icons-round">
+                            calculate
+                        </span>
+                        Calculadoras
+                    </button>
+                    <div class="dropdown-calculadoras">
+                        <ul>
+                            <li class="hover">
+                                <a href="">Padrão</a>
+                            </li>
+                            <li class="hover">
+                                <a href="">Juros</a>
+                            </li>
+                            <li class="hover">
+                                <a href="">Aposentadoria</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="menu-item hover">
+                    <a href="educacional.html">
+                        <span class="material-icons-round">
+                            school
+                        </span>
+                        Educacional
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="main-content">
+        <header class="perfil-nav">
+            <nav>
+                <div class="perfil-content">
+                    <button class="perfil hover">
+                        <span class="material-icons-round">
+                            person
+                        </span>
+                        Perfil
+                    </button>
+                    <div class="dropdown-perfil card">
+                        <ul>
+                            <li class="hover">
+                                <a href="">Conta</a>
+                            </li>
+                            <li class="hover">
+                                <a href="">Sair</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mobile">
+                    <div class="menu-button hover">
+                        <span class="material-icons-round" id="menu-icon">
+                            menu
+                        </span>
+                    </div>
+                    <span class="logo logo-cell none">
+                        <span class="material-icons-round" id="logo-mobile">
+                            attach_money
+                        </span>
+                        Finanças
+                    </span>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <article class="container-top">
+                <div class="cards-container">
+                    <button class="arrow-left control hover" onclick="plusDivs(-1)">
+                        &#10094;
+                    </button>
+                    <button class="arrow-right control hover" onclick="plusDivs(+1)">
+                        &#10095;
+                    </button>
+                    <div class="cards-wrapper">
+                        <div class="cards">
+                            <div class="card-item current-card">
+                                <span class="material-icons-round icon-card">
+                                    payment
+                                </span>
+                                <hr>
+                                <div>Cartão 1</div>
+                                <div>Banco</div>
+                                <div>Total: 0.00</div>
+                                <div>Utilizado: 0.00</div>
+                                <div>Disponível: 0.00</div>
+                                <div>
+                                    <button class="btn-white">Editar</button>
+                                    <button class="btn-black">Deletar</button>
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <span class="material-icons-round icon-card">
+                                    payment
+                                </span>
+                                <hr>
+                                <div>Cartão 1</div>
+                                <div>Banco</div>
+                                <div>Total: 0.00</div>
+                                <div>Utilizado: 0.00</div>
+                                <div>Disponível: 0.00</div>
+                                <div>
+                                    <button class="btn-white">Editar</button>
+                                    <button class="btn-black">Deletar</button>
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <span class="material-icons-round icon-card">
+                                    payment
+                                </span>
+                                <hr>
+                                <div>Cartão 1</div>
+                                <div>Banco</div>
+                                <div>Total: 0.00</div>
+                                <div>Utilizado: 0.00</div>
+                                <div>Disponível: 0.00</div>
+                                <div>
+                                    <button class="btn-white">Editar</button>
+                                    <button class="btn-black">Deletar</button>
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <span class="material-icons-round icon-card">
+                                    payment
+                                </span>
+                                <hr>
+                                <div>Cartão 1</div>
+                                <div>Banco</div>
+                                <div>Total: 0.00</div>
+                                <div>Utilizado: 0.00</div>
+                                <div>Disponível: 0.00</div>
+                                <div>
+                                    <button class="btn-white">Editar</button>
+                                    <button class="btn-black">Deletar</button>
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <span class="material-icons-round icon-card">
+                                    payment
+                                </span>
+                                <hr>
+                                <div>Cartão 1</div>
+                                <div>Banco</div>
+                                <div>Total: 0.00</div>
+                                <div>Utilizado: 0.00</div>
+                                <div>Disponível: 0.00</div>
+                                <div>
+                                    <button class="btn-white">Editar</button>
+                                    <button class="btn-black">Deletar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="container-bottom">
+                <div class="add-card">
+                    <button class="btn-add-card hover" onclick="document.getElementById('id01').style.display='block'">
+                        <span class="material-icons-round hover">
+                            add_circle
+                        </span>
+                    </button>
+                    <div>Novo cartão</div>
+                </div>
+                <div id="id01" class="modal-card card">
+                    <div class="top-modal-card">
+                        <h2>Nova conta</h2>
+                        <span onclick="document.getElementById('id01').style.display='none'"class="close" title="Close Modal">&times;</span>
+                    </div>
+                  
+                    <!-- Modal Content -->
+                    <form class="modal-card-content animate" action="#">
+                  
+                      <div class="container">
+                        <div class="content-card-register">
+                            <label><b>Identificador</b></label>
+                            <input type="text" placeholder="Identificador" name="uname" required>
+                        </div>
+                  
+                        <div class="content-card-register">
+                            <label><b>Banco</b></label>
+                            <input type="text" placeholder="Banco">
+                        </div>
+
+                        <div class="content-card-register">
+                            <input type="radio" id="debito" name="card-type" value="debito">
+                            <label for="debito">Débito</label><br>
+                            <input type="radio" id="credito"name="card-type" value="credito">
+                            <label for="credito">Crédito</label><br>
+                        </div>
+
+                        <div class="content-card-register">
+                            <label><b>Valor inicial</b></label>
+                            <input type="number" placeholder="0.00">
+                        </div>
+                  
+                      </div>
+                  
+                      <div class="btn-card-register">
+                        <button type="submit" class="btn-white card">Criar</button>
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn btn-black">Cancel</button>
+                      </div>
+                    </form>
+                  </div>
+                    
+                </div>
+            </article>
+        </main>
+    </div>
+    <script src="src/scripts/script.js"></script>
+</body>
+</html>

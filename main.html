@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+      rel="stylesheet">
+    <title>Finanças</title>
+</head>
+<body>
+    <nav class="main-nav">
+        <span class="logo">
+            <span class="material-icons-round">
+                attach_money
+            </span>
+            Finanças
+        </span>
+        <div class="menus">
+            <ul class="menu">
+                <li class="menu-item hover active">
+                    <a href="#">
+                        <span class="material-icons-round">
+                            home
+                        </span>
+                        Principal
+                    </a>
+                </li>
+                <li class="menu-item hover">
+                    <a href="cartao.html">
+                        <span class="material-icons-round">
+                            payment
+                        </span>
+                        Cartões e contas
+                    </a>
+                </li>
+                <li class="menu-item hover">
+                    <a href="dividas.html">
+                        <span class="material-icons-round">
+                            request_quote
+                        </span>
+                        Dívidas
+                    </a>
+                </li>
+                <li class="menu-item hover">
+                    <a href="historico.html">
+                        <span class="material-icons-round">
+                            description
+                        </span>
+                        Histórico
+                    </a>
+                </li>
+                <li class="menu-item hover">
+                    <a href="investimentos.html">
+                        <span class="material-icons-round">
+                            trending_up
+                        </span>
+                        Investimentos
+                    </a>
+                </li>
+                <li class="menu-item hover">
+                    <a href="metas.html">
+                        <span class="material-icons-round">
+                            savings
+                        </span>
+                        Metas e Orçamentos
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <button class="calculadora hover">
+                        <span class="material-icons-round">
+                            calculate
+                        </span>
+                        Calculadoras
+                    </button>
+                    <div class="dropdown-calculadoras">
+                        <ul>
+                            <li class="hover">
+                                <a href="">Padrão</a>
+                            </li>
+                            <li class="hover">
+                                <a href="">Juros</a>
+                            </li>
+                            <li class="hover">
+                                <a href="">Aposentadoria</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="menu-item hover">
+                    <a href="educacional.html">
+                        <span class="material-icons-round">
+                            school
+                        </span>
+                        Educacional
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="main-content">
+        <header class="perfil-nav">
+            <nav>
+                <div class="perfil-content">
+                    <button class="perfil hover">
+                        <span class="material-icons-round">
+                            person
+                        </span>
+                        Perfil
+                    </button>
+                    <div class="dropdown-perfil card">
+                        <ul>
+                            <li class="hover">
+                                <a href="">Conta</a>
+                            </li>
+                            <li class="hover">
+                                <a href="">Sair</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mobile">
+                    <div class="menu-button hover">
+                        <span class="material-icons-round" id="menu-icon">
+                            menu
+                        </span>
+                    </div>
+                    <span class="logo logo-cell none">
+                        <span class="material-icons-round" id="logo-mobile">
+                            attach_money
+                        </span>
+                        Finanças
+                    </span>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="main-page">
+                <section class="main-left">
+                    <article class="total card">
+                        <div class="label">Saldo geral</div>
+                        <div class="total-value">0.00</div>
+                    </article>
+                    <article class="subtotals">
+                        <div class="subtotal-item">
+                            <div class="subtotal-label label adicionar">Adicionar Item</div>
+                            <div class="subtotal-icon">
+                                <span class="material-icons-round hover">
+                                    add_circle
+                                </span>
+                            </div>
+                        </div>
+                        <div class="subtotal-item">
+                            <div class="subtotal-label label">Crédito disponível</div>
+                            <div class="value">0.00</div>
+                        </div>
+                        <div class="subtotal-item">
+                            <div class="subtotal-label label">Gastos</div>
+                            <div class="value">0.00</div>
+                        </div>
+                    </article>
+                    <article class="main-history">
+                        <div class="history-label">Histórico de movimentação</div>
+                        <article class="history-list-content card">
+                            <ul class="history-itens">
+                                <li class="item-history">
+                                    <div class="item-left">
+                                        <div class="data-emissao">00/00/0000</div>
+                                        <div class="nome-item">Item 1</div>
+                                    </div>
+                                    <div class="item-right">
+                                        <div class="data-vencimento">00/00/0000</div>
+                                        <div class="item-value">0.00</div>
+                                    </div>
+                                </li>
+                                <li class="item-history">
+                                    <div class="item-left">
+                                        <div class="data-emissao">00/00/0000</div>
+                                        <div class="nome-item">Item 1</div>
+                                    </div>
+                                    <div class="item-right">
+                                        <div class="data-vencimento">00/00/0000</div>
+                                        <div class="item-value">0.00</div>
+                                    </div>
+                                </li>
+                                <li class="item-history">
+                                    <div class="item-left">
+                                        <div class="data-emissao">00/00/0000</div>
+                                        <div class="nome-item">Item 1</div>
+                                    </div>
+                                    <div class="item-right">
+                                        <div class="data-vencimento">00/00/0000</div>
+                                        <div class="item-value">0.00</div>
+                                    </div>
+                                </li>
+                                <li class="item-history">
+                                    <div class="item-left">
+                                        <div class="data-emissao">00/00/0000</div>
+                                        <div class="nome-item">Item 1</div>
+                                    </div>
+                                    <div class="item-right">
+                                        <div class="data-vencimento">00/00/0000</div>
+                                        <div class="item-value">0.00</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </article>
+                    </article>
+                </section>
+                <section class="main-right">
+                    <div class="right-top">
+                        <article class="metas-content card">
+                            <ul class="metas-itens">
+                                <li class="metas-item">
+                                    <div class="metas-nome">meta 1</div>
+                                    <div class="metas-value">0.00 de 0.00</div>
+                                    <div class="metas-barra"></div>
+                                </li>
+                                <li class="metas-item">
+                                    <div class="metas-nome">meta 2</div>
+                                    <div class="metas-value">0.00 de 0.00</div>
+                                    <div class="metas-barra"></div>
+                                </li>
+                            </ul>
+                        </article>
+                    </div>
+                    <div class="right-bottom">
+                        <article class="invest-content card">
+                            <ul class="invest-itens">
+                                <li class="invest-item">
+                                    <div class="invest-nome">investimento 1</div>
+                                    <ul>
+                                        <li>
+                                            <div for="invest-value">Inicial</div>
+                                            <div class="invest-value">0.00</div>
+                                        </li>
+                                        <li>
+                                            <div for="invest-lucre">Lucro</div>
+                                            <div class="invest-lucre">0.00</div>
+                                        </li>
+                                        <li>
+                                            <div for="invest-total">Total</div>
+                                            <div class="invest-total">0.00</div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="invest-item">
+                                    <div class="invest-nome">investimento 2</div>
+                                    <ul>
+                                        <li>
+                                            <div for="invest-value">Inicial</div>
+                                            <div class="invest-value">0.00</div>
+                                        </li>
+                                        <li>
+                                            <div for="invest-lucre">Lucro</div>
+                                            <div class="invest-lucre">0.00</div>
+                                        </li>
+                                        <li>
+                                            <div for="invest-total">Total</div>
+                                            <div class="invest-total">0.00</div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </article>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+    <script src="src/scripts/script.js"></script>
+</body>
+</html>
